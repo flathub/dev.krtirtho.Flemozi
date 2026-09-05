@@ -2,7 +2,7 @@
 
 app-id: dev.krtirtho.Flemozi
 runtime: org.freedesktop.Platform
-runtime-version: "23.08"
+runtime-version: "25.08"
 sdk: org.freedesktop.Sdk
 command: flemozi
 finish-args:
@@ -29,3 +29,5 @@ modules:
         dest: flemozi
         url: https://github.com/KRTirtho/flemozi/releases/download/v0.2.0/flemozi-linux-0.2.0-x86_64.tar.xz
         sha256: de0f4dc3f807351d6613eb1566f62983916faa37d469d40dd290fcbcd399b545
+      - type: patch
+        path: fix-appdata.patch

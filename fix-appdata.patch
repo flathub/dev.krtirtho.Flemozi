@@ -1,0 +1,39 @@
+From f592901b4110f5471974598cf16b6ce3c9055547 Mon Sep 17 00:00:00 2001
+From: Sabri Ünal <yakushabb@gmail.com>
+Date: Sun, 8 Mar 2026 15:13:56 +0300
+Subject: [PATCH] Fix appdata paper cuts
+
+---
+ flemozi/dev.krtirtho.Flemozi.appdata.xml | 8 ++++++--
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+
+diff --git a/flemozi/dev.krtirtho.Flemozi.appdata.xml b/flemozi/dev.krtirtho.Flemozi.appdata.xml
+index e63eea5..49f5382 100644
+--- a/flemozi/dev.krtirtho.Flemozi.appdata.xml
++++ b/flemozi/dev.krtirtho.Flemozi.appdata.xml
+@@ -12,8 +12,12 @@
+     <control>keyboard</control>
+     <control>touch</control>
+   </recommends>
+-  <developer_name>Kingkor Roy Tirtho</developer_name>
++  <developer id="dev.krtirtho">
++    <name>Kingkor Roy Tirtho</name>
++  </developer>
+   <url type="homepage">https://github.com/krtirtho/flemozi</url>
++  <url type="bugtracker">https://github.com/krtirtho/flemozi/issues</url>
++  <url type="vcs-browser">https://github.com/krtirtho/flemozi</url>
+   <description>
+     <p>
+       A simple✨, fast⚡ and lightweight🪶 emoji picker for desktop operating systems🫶
+@@ -33,7 +37,7 @@
+     </ul>
+   </description>
+   <screenshots>
+-    <screenshot>
++    <screenshot type="default">
+       <image type="source">
+         https://rawcdn.githack.com/KRTirtho/flemozi/c38d39076980e0ef2203f90434b945654b14f63e/assets/logo.png
+       </image>
+--
+libgit2 1.7.2
+
